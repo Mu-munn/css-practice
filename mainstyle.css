@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic Pro",
     "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
-  background-image: url(/background.jpg);
+  background-image: url(img/background.jpg);
   background-size: cover;
 }
 a {
@@ -337,9 +337,6 @@ img {
   .sp-only {
     display: block;
   }
-  .main-title {
-    font-size: 20px;
-  }
   /* 見出し */
   .title {
     font-size: 26px;
@@ -362,13 +359,16 @@ img {
   /* ヘッダー */
   .header .inner {
     padding: 15px;
+    display: none;
   }
 
   .header-logo {
-    font-size: 10px;
-    margin-right: 15px;
+    font-size: 1px;
+    /*  margin-right: 15px;*/
   }
-
+  .main-title {
+    font-size: 10px;
+  }
   .header-nav-item:not(:last-child) {
     margin-right: 10px;
   }
