@@ -337,7 +337,9 @@ img {
   .sp-only {
     display: block;
   }
-
+  .main-title{
+  font-size:20px;
+  }
   /* 見出し */
   .title {
     font-size: 26px;
