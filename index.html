@@ -1,90 +1,211 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+  <head>
+    <!-- GoogleWebfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <link rel="stylesheet" href="mainstyle.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <!-- header -->
+      <header class="header">
+        <div class="inner">
+          <h1 class="header-logo">
+            <a href="#">YUUKI MUKAIGAWARA</a>
+          </h1>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item"><a href="#about">ABOUT ME</a></li>
+              <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+              <li class="header-nav-item"><a href="#works">WORKS</a></li>
+              <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <div class="main-title">
+          <h2>Applications　For　You</h2>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
+        <!-- about -->
+        <section class="about section" id="about">
+          <div class="inner">
+            <h2 class="title">ABOUT ME</h2>
+            <div class="profile">
+              <p class="profile-img">
+                <img src="img/profile.jpg" alt="" />
+              </p>
+              <div class="profile-body">
+                <p>
+                  お金がないただの専門学生2年。やりたいことが多すぎて、webサイト/アプリからモバイルアプリ、デスクトップアプリまで幅ひろ～くやっています。マイブームはFlutter。
+                </p>
+                <p>
+                  趣味、と呼ぶは分かりませんが...最近はドライブにハマってます！先日バイト代大奮発でMazdaさんの2013年式MTアテンザセダンを買いました^^;;;;
+                  もうすぐで納車なので楽しみです・・・(*^^)v(MTに後悔はありません・・・💦)
+                </p>
+              </div>
+            </div>
           </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
+        </section>
+        <!-- /about -->
+        <!-- skill -->
+        <section class="skill section" id="skill">
+          <div class="inner">
+            <h2 class="title">SKILL</h2>
+            <div class="skill-list">
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">HTML5/CSS3</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">C/C++</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">C#</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">Flutter</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">LAWSON</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">L</h3>
+                  <p class="skill-text">
+                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
+        </section>
+        <!-- /skill -->
+        <!-- works -->
+        <section class="works section" id="works">
+          <div class="inner">
+            <h2 class="title">WORKS</h2>
+            <div class="works-list">
+              <a class="works-item" href="works-template.html">
+                <p class="works-img">
+                  <img src="img/works-sample-thumb.jpg" alt="" />
+                </p>
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">Design / Coding(Responsive)</p>
+              </a>
+              <a class="works-item" href="works-template.html">
+                <p class="works-img">
+                  <img src="img/works-sample-thumb.jpg" alt="" />
+                </p>
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">
+                  Design / Coding(Responsive) / WordPress
+                </p>
+              </a>
+              <a class="works-item" href="works-template.html">
+                <p class="works-img">
+                  <img src="img/works-sample-thumb.jpg" alt="" />
+                </p>
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">Design</p>
+              </a>
+              <a class="works-item" href="works-template.html">
+                <p class="works-img">
+                  <img src="img/works-sample-thumb.jpg" alt="" />
+                </p>
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">Banner Design</p>
+              </a>
+              <a class="works-item" href="works-template.html">
+                <p class="works-img">
+                  <img src="img/works-sample-thumb.jpg" alt="" />
+                </p>
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">Banner Design</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- /works -->
+
+        <!-- contact -->
+        <section class="contact section" id="contact">
+          <div class="inner">
+            <h2 class="title">CONTACT</h2>
+            <!--
+            <p class="lead">
+              お問い合わせは、<br class="sp-only" />メールにお願いします。
+            </p>
+          -->
+            <div class="contact-list">
+              <a
+                class="contact-item"
+                href="https://www.facebook.com/yuuki.mukai.7771"
+                target="_blank"
+                rel="noopener"
+              >
+                facebook(友達少なめ)
+              </a>
+              <p class="contact-item">rpgmukai333@gmail.com</p>
+            </div>
+          </div>
+        </section>
+        <!-- /contact -->
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;YUUKI MUKAIGAWARA</div>
+      </footer>
+      <!-- /footer -->
     </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+  </body>
 </html>
