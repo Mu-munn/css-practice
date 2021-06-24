@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic Pro",
     "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
-  background-image: url(/portfolio.github.io/background.jpg);
+  background-image: url(img/background.jpg);
   background-size: cover;
 }
 a {
@@ -337,8 +337,8 @@ img {
   .sp-only {
     display: block;
   }
-  .main-title{
-  font-size:20px;
+  .main-title {
+    font-size: 20px;
   }
   /* 見出し */
   .title {
@@ -346,11 +346,11 @@ img {
     margin-bottom: 20px;
   }
 
-  /* レイアウト */
+  /* レイアウト 
   .wrapper {
     padding-top: 57px;
   }
-
+*/
   .section {
     padding: 60px 0;
   }
