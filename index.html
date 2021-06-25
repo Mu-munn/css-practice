@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
     <!-- GoogleWebfonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +23,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test</title>
     <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="animetion.css" />
+    <!-- JavaScript import -->
   </head>
   <body>
     <div class="wrapper">
@@ -43,17 +49,24 @@
 
       <main class="content">
         <div class="main-title">
-          <h2>Applications　For　You</h2>
+          <h2>
+            <!--Applications　For　You-->
+            <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "Applications　For　You!","あなたへのアプリを作ります。" ]'
+            ></span>
+          </h2>
         </div>
         <!-- about -->
         <section class="about section" id="about">
           <div class="inner">
-            <h2 class="title">ABOUT ME</h2>
+            <h2 class="title effect-fade">ABOUT ME</h2>
             <div class="profile">
-              <p class="profile-img">
-                <img src="img/profile.jpg" alt="" />
+              <p class="profile-img effect-fade">
+                <img src="img/inu.PNG" alt="" />
               </p>
-              <div class="profile-body">
+              <div class="profile-body effect-fade">
                 <p>
                   お金がないただの専門学生2年。やりたいことが多すぎて、webサイト/アプリからモバイルアプリ、デスクトップアプリまで幅ひろ～くやっています。マイブームはFlutter。
                 </p>
@@ -67,61 +80,63 @@
         </section>
         <!-- /about -->
         <!-- skill -->
-        <section class="skill section" id="skill">
+        <section class="skill section effect-fade" id="skill">
           <div class="inner">
-            <h2 class="title">SKILL</h2>
+            <div class="effect-fade">
+              <h2 class="title">SKILL</h2>
+            </div>
             <div class="skill-list">
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/html-5.svg" alt="" /></p>
                 <div class="skill-body">
                   <h3 class="skill-name">HTML5/CSS3</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    デザインにはあまり自身がありませんが、webサイトをつくること自体は好きなのでそこそこ続けています。github　pagesは学生の味方です笑。
                   </p>
                 </div>
               </div>
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/C-icon.svg" alt="" /></p>
                 <div class="skill-body">
-                  <h3 class="skill-name">C/C++</h3>
+                  <h3 class="skill-name">C・Java</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    基本の言語です、学校の授業でたくさん教えていただきました（笑）近々JAVAで何か作ろうかなと考えています。
                   </p>
                 </div>
               </div>
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/c-sharp.svg" alt="" /></p>
                 <div class="skill-body">
                   <h3 class="skill-name">C#</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    プログラミングの楽しさを知った言語です。Windowsソフトはあまり作る機会はありませんが、時間があるときにまた触れたらなと思います。
                   </p>
                 </div>
               </div>
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/flutter.svg" alt="" /></p>
                 <div class="skill-body">
                   <h3 class="skill-name">Flutter</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    巷で人気（？）のFlutterです。そこそこ作っているので、全部ストアに出したいのですが公開はお金がかかるので、webアプリとして作りPWAにして配布しています。
                   </p>
                 </div>
               </div>
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/firebase.svg" alt="" /></p>
                 <div class="skill-body">
-                  <h3 class="skill-name">LAWSON</h3>
+                  <h3 class="skill-name">Firebase</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    主にhosting、CloudDataBase、Authの機能を使います。無料なのが本当に嬉しいです。
                   </p>
                 </div>
               </div>
-              <div class="skill-item">
-                <p class="skill-img"><img src="img/icon_skill.png" alt="" /></p>
+              <div class="skill-item effect-fade">
+                <p class="skill-img"><img src="img/unity.svg" alt="" /></p>
                 <div class="skill-body">
-                  <h3 class="skill-name">L</h3>
+                  <h3 class="skill-name">Unity</h3>
                   <p class="skill-text">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                    ゲーム開発にもちゃっかり興味があります。ゲームは一人で作るのはとても大変なので、友人と作るときしかやりません（　＾ω＾）・・・
                   </p>
                 </div>
               </div>
@@ -130,18 +145,18 @@
         </section>
         <!-- /skill -->
         <!-- works -->
-        <section class="works section" id="works">
+        <section class="works section effect-fade" id="works">
           <div class="inner">
-            <h2 class="title">WORKS</h2>
+            <h2 class="title effect-fade">WORKS</h2>
             <div class="works-list">
-              <a class="works-item" href="works-template.html">
+              <a class="works-item effect-fade" href="works-template.html">
                 <p class="works-img">
                   <img src="img/works-sample-thumb.jpg" alt="" />
                 </p>
                 <p class="works-name">作品名が入る</p>
                 <p class="works-info">Design / Coding(Responsive)</p>
               </a>
-              <a class="works-item" href="works-template.html">
+              <a class="works-item effect-fade" href="works-template.html">
                 <p class="works-img">
                   <img src="img/works-sample-thumb.jpg" alt="" />
                 </p>
@@ -150,21 +165,21 @@
                   Design / Coding(Responsive) / WordPress
                 </p>
               </a>
-              <a class="works-item" href="works-template.html">
+              <a class="works-item effect-fade" href="works-template.html">
                 <p class="works-img">
                   <img src="img/works-sample-thumb.jpg" alt="" />
                 </p>
                 <p class="works-name">作品名が入る</p>
                 <p class="works-info">Design</p>
               </a>
-              <a class="works-item" href="works-template.html">
+              <a class="works-item effect-fade" href="works-template.html">
                 <p class="works-img">
                   <img src="img/works-sample-thumb.jpg" alt="" />
                 </p>
                 <p class="works-name">作品名が入る</p>
                 <p class="works-info">Banner Design</p>
               </a>
-              <a class="works-item" href="works-template.html">
+              <a class="works-item effect-fade" href="works-template.html">
                 <p class="works-img">
                   <img src="img/works-sample-thumb.jpg" alt="" />
                 </p>
@@ -179,7 +194,7 @@
         <!-- contact -->
         <section class="contact section" id="contact">
           <div class="inner">
-            <h2 class="title">CONTACT</h2>
+            <h2 class="title effect-fade">CONTACT</h2>
             <!--
             <p class="lead">
               お問い合わせは、<br class="sp-only" />メールにお願いします。
@@ -187,14 +202,14 @@
           -->
             <div class="contact-list">
               <a
-                class="contact-item"
+                class="contact-item effect-fade"
                 href="https://www.facebook.com/yuuki.mukai.7771"
                 target="_blank"
                 rel="noopener"
               >
-                facebook(友達少なめ)
+                <p class="effect-fade">facebook(友達少なめ)</p>
               </a>
-              <p class="contact-item">rpgmukai333@gmail.com</p>
+              <p class="contact-item effect-fade">rpgmukai333@gmail.com</p>
             </div>
           </div>
         </section>
@@ -207,5 +222,10 @@
       </footer>
       <!-- /footer -->
     </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+    <script src="./main.js"></script>
   </body>
 </html>
