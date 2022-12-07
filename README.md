@@ -1,3 +1,3 @@
-# portfolio.github.io
+# css-practice
 
-## ちょっとしたコーディング練習です
+cssコーディング練習です
