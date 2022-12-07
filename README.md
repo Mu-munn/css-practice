@@ -1,3 +1,3 @@
-# css-practice
+# css-practise
 
 cssコーディング練習です
